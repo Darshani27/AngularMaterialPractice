@@ -1,0 +1,20 @@
+<button mat-button [matMenuTriggerFor]="animals">Animal</button>
+<mat-menu #animals="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="vertebrates">Vertebrates</button>
+  <button mat-menu-item [matMenuTriggerFor]="invertebrates">Invertebrates</button>
+</mat-menu>
+
+<mat-menu #vertebrates="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="fish">Fishes</button>
+  <button mat-menu-item>Birds</button>
+  <button mat-menu-item>Mammals</button>
+</mat-menu>
+
+<mat-menu #invertebrates="matMenu" xPosition="before">
+  <button mat-menu-item>Insects</button>
+  <button mat-menu-item>Molluscs</button>
+</mat-menu>
+<mat-menu #fish="matMenu">
+    <button mat-menu-item>Shark</button>
+    <button mat-menu-item>Whale</button>
+</mat-menu>
