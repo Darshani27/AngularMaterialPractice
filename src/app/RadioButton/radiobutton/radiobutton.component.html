@@ -1,0 +1,16 @@
+<!-- <h1>Basic Radio Buttons Example 1</h1>
+<mat-radio-group>
+    <mat-radio-button value="1">Option 1</mat-radio-button>
+    <mat-radio-button value="2">Option 2</mat-radio-button>
+</mat-radio-group> -->
+<h1>
+    Example 2
+</h1>
+<h2>
+    Pick Your Fav Animal
+</h2>
+<mat-radio-group [(ngModel)]="animal">
+    <mat-radio-button *ngFor="let animal of animals" [value]="animal">{{animal}}</mat-radio-button>
+</mat-radio-group>
+<br>
+<div>You have selected : {{animal}}</div>
