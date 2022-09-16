@@ -29,6 +29,8 @@ import { CardComponent } from './Card/card/card.component';
 import { SortheaderComponent } from './SortHeader/sortheader/sortheader.component';
 import { AutocompleteComponent } from './AutoComplete/autocomplete/autocomplete.component';
 import { SnackbarComponent } from './SnackBar/snackbar/snackbar.component';
+import { ExpansionpanelComponent } from './ExpansionPanel/expansionpanel/expansionpanel.component';
+import { TableComponent } from './Table/table/table.component';
 
 @NgModule({
   declarations: [
@@ -55,7 +57,9 @@ import { SnackbarComponent } from './SnackBar/snackbar/snackbar.component';
     CardComponent,
     SortheaderComponent,
     AutocompleteComponent,
-    SnackbarComponent
+    SnackbarComponent,
+    ExpansionpanelComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
