@@ -1,0 +1,18 @@
+<!-- <h1>Basic Spinner</h1> -->
+<!-- <mat-spinner></mat-spinner> -->
+<h1>Spinner's Value Based on User Selection</h1>
+<section class="example-section">
+    <label class="example-margin">Mode:</label>
+    <mat-radio-group [(ngModel)]="mode">
+      <mat-radio-button class="example-margin" value="determinate">
+        Determinate
+      </mat-radio-button>
+      <mat-radio-button class="example-margin" value="indeterminate">
+        Indeterminate
+      </mat-radio-button>
+    </mat-radio-group>
+  </section>
+
+  <section>
+    <mat-spinner [mode]="mode"></mat-spinner>
+  </section>

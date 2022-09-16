@@ -14,7 +14,7 @@ import { SliderComponent } from './Sliders/slider/slider.component';
 import { DividerComponent } from './Divider/divider/divider.component';
 import { RippleComponent } from './Ripples/ripple/ripple.component';
 import { RadiobuttonComponent } from './RadioButton/radiobutton/radiobutton.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PaginatorComponent } from './Paginator/paginator/paginator.component';
 import { SelectComponent } from './Select/select/select.component';
 import { BottomSheetComponent } from './BottomSheet/bottom-sheet/bottom-sheet.component';
@@ -25,6 +25,10 @@ import { CheckBoxComponent } from './CheckBox/check-box/check-box.component';
 import { SlideToggleComponent } from './SlideToggle/slide-toggle/slide-toggle.component';
 import { ProgressBarComponent } from './ProgressBar/progress-bar/progress-bar.component';
 import { ProgressSpinnerComponent } from './ProgressSpinner/progress-spinner/progress-spinner.component';
+import { CardComponent } from './Card/card/card.component';
+import { SortheaderComponent } from './SortHeader/sortheader/sortheader.component';
+import { AutocompleteComponent } from './AutoComplete/autocomplete/autocomplete.component';
+import { SnackbarComponent } from './SnackBar/snackbar/snackbar.component';
 
 @NgModule({
   declarations: [
@@ -47,14 +51,19 @@ import { ProgressSpinnerComponent } from './ProgressSpinner/progress-spinner/pro
     CheckBoxComponent,
     SlideToggleComponent,
     ProgressBarComponent,
-    ProgressSpinnerComponent
+    ProgressSpinnerComponent,
+    CardComponent,
+    SortheaderComponent,
+    AutocompleteComponent,
+    SnackbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

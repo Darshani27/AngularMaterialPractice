@@ -19,8 +19,12 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatSlideToggleModule} from '@angular/material/slide-toggle'; 
 import {MatProgressBarModule} from '@angular/material/progress-bar'; 
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatCardModule} from '@angular/material/card';
+import {MatSortModule} from '@angular/material/sort';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import {MatSnackBarModule} from '@angular/material/snack-bar'; 
 
-const material=[MatProgressBarModule,MatProgressSpinnerModule,MatSlideToggleModule,MatCheckboxModule,MatGridListModule,MatBadgeModule,MatPaginatorModule,MatSelectModule,MatRadioModule,MatListModule,MatRippleModule,MatDividerModule,MatSliderModule,MatMenuModule,MatButtonModule,MatToolbarModule,MatIconModule,MatDialogModule,MatFormFieldModule]
+const material=[MatSnackBarModule,MatAutocompleteModule,MatSortModule,MatCardModule,MatProgressBarModule,MatProgressSpinnerModule,MatSlideToggleModule,MatCheckboxModule,MatGridListModule,MatBadgeModule,MatPaginatorModule,MatSelectModule,MatRadioModule,MatListModule,MatRippleModule,MatDividerModule,MatSliderModule,MatMenuModule,MatButtonModule,MatToolbarModule,MatIconModule,MatDialogModule,MatFormFieldModule]
 
 @NgModule({
   declarations: [],
