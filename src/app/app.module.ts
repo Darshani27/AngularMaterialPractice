@@ -33,6 +33,9 @@ import { ExpansionpanelComponent } from './ExpansionPanel/expansionpanel/expansi
 import { TableComponent } from './Table/table/table.component';
 import { Table1Component } from './Tables/table1/table1.component';
 import { PaginatortableComponent } from './Tables/paginatortable/paginatortable.component';
+import { EventTableComponent } from './Tables/event-table/event-table.component';
+import { TooltipComponent } from './ToolTip/tooltip/tooltip.component';
+import { DatepickerComponent } from './DatePicker/datepicker/datepicker.component';
 
 @NgModule({
   declarations: [
@@ -64,6 +67,9 @@ import { PaginatortableComponent } from './Tables/paginatortable/paginatortable.
     TableComponent,
     Table1Component,
     PaginatortableComponent,
+    EventTableComponent,
+    TooltipComponent,
+    DatepickerComponent,
     // FilterTableComponent
   ],
   imports: [
