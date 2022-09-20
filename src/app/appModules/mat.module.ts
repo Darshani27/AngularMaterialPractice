@@ -24,8 +24,9 @@ import {MatSortModule} from '@angular/material/sort';
 import {MatAutocompleteModule} from '@angular/material/autocomplete';
 import {MatSnackBarModule} from '@angular/material/snack-bar'; 
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatTableModule} from '@angular/material/table';
 
-const material=[MatExpansionModule,MatSnackBarModule,MatAutocompleteModule,MatSortModule,MatCardModule,MatProgressBarModule,MatProgressSpinnerModule,MatSlideToggleModule,MatCheckboxModule,MatGridListModule,MatBadgeModule,MatPaginatorModule,MatSelectModule,MatRadioModule,MatListModule,MatRippleModule,MatDividerModule,MatSliderModule,MatMenuModule,MatButtonModule,MatToolbarModule,MatIconModule,MatDialogModule,MatFormFieldModule]
+const material=[MatTableModule,MatExpansionModule,MatSnackBarModule,MatAutocompleteModule,MatSortModule,MatCardModule,MatProgressBarModule,MatProgressSpinnerModule,MatSlideToggleModule,MatCheckboxModule,MatGridListModule,MatBadgeModule,MatPaginatorModule,MatSelectModule,MatRadioModule,MatListModule,MatRippleModule,MatDividerModule,MatSliderModule,MatMenuModule,MatButtonModule,MatToolbarModule,MatIconModule,MatDialogModule,MatFormFieldModule]
 
 @NgModule({
   declarations: [],

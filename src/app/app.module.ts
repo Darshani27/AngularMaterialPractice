@@ -31,6 +31,8 @@ import { AutocompleteComponent } from './AutoComplete/autocomplete/autocomplete.
 import { SnackbarComponent } from './SnackBar/snackbar/snackbar.component';
 import { ExpansionpanelComponent } from './ExpansionPanel/expansionpanel/expansionpanel.component';
 import { TableComponent } from './Table/table/table.component';
+import { Table1Component } from './Tables/table1/table1.component';
+import { PaginatortableComponent } from './Tables/paginatortable/paginatortable.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +61,10 @@ import { TableComponent } from './Table/table/table.component';
     AutocompleteComponent,
     SnackbarComponent,
     ExpansionpanelComponent,
-    TableComponent
+    TableComponent,
+    Table1Component,
+    PaginatortableComponent,
+    // FilterTableComponent
   ],
   imports: [
     BrowserModule,
