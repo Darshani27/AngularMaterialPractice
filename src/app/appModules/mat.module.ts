@@ -27,8 +27,10 @@ import {MatExpansionModule} from '@angular/material/expansion';
 import {MatTableModule} from '@angular/material/table';
 import {MatTooltipModule} from '@angular/material/tooltip'; 
 import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatSidenavModule} from '@angular/material/sidenav'; 
+import {MatChipsModule} from '@angular/material/chips'; 
 
-const material=[MatDatepickerModule,MatTooltipModule,MatTableModule,MatExpansionModule,MatSnackBarModule,MatAutocompleteModule,MatSortModule,MatCardModule,MatProgressBarModule,MatProgressSpinnerModule,MatSlideToggleModule,MatCheckboxModule,MatGridListModule,MatBadgeModule,MatPaginatorModule,MatSelectModule,MatRadioModule,MatListModule,MatRippleModule,MatDividerModule,MatSliderModule,MatMenuModule,MatButtonModule,MatToolbarModule,MatIconModule,MatDialogModule,MatFormFieldModule]
+const material=[MatChipsModule,MatSidenavModule,MatDatepickerModule,MatTooltipModule,MatTableModule,MatExpansionModule,MatSnackBarModule,MatAutocompleteModule,MatSortModule,MatCardModule,MatProgressBarModule,MatProgressSpinnerModule,MatSlideToggleModule,MatCheckboxModule,MatGridListModule,MatBadgeModule,MatPaginatorModule,MatSelectModule,MatRadioModule,MatListModule,MatRippleModule,MatDividerModule,MatSliderModule,MatMenuModule,MatButtonModule,MatToolbarModule,MatIconModule,MatDialogModule,MatFormFieldModule]
 
 @NgModule({
   declarations: [],

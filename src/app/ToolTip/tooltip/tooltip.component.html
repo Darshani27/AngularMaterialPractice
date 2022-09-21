@@ -1,0 +1,51 @@
+<!-- <button mat-raised-button (click)="tooltip.show()">
+    Show
+</button>
+
+<button mat-raised-button
+          (click)="tooltip.hide()">
+    hide
+</button>
+<button mat-raised-button
+matTooltip="Info about the action"
+[matTooltipDisabled]="disabled.value"
+#tooltip="matTooltip">
+Red-tooltip Action
+</button>
+<mat-checkbox [formControl]="disabled">
+Disable ToolTip
+</mat-checkbox> -->
+
+<!-- 
+<p>Changing tooltip Message</p>
+<mat-form-field class="example-user-input" appearance="fill">
+    <mat-label>Tooltip message</mat-label>
+    <input matInput [formControl]="message">
+  </mat-form-field>
+  <button mat-raised-button
+  [matTooltip]="message.value || ''"
+  aria-label="Button that displays a tooltip with a custom message">
+Action
+</button> -->
+
+<mat-form-field appearance="fill">
+    <mat-label>Tooltip position</mat-label>
+    <mat-select [formControl]="position">
+      <mat-option *ngFor="let positionOption of positionOptions" [value]="positionOption">
+        {{positionOption}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  
+  <div class="example-container" cdkScrollable>
+    <button mat-raised-button #tooltip="matTooltip"
+            matTooltip="Info about the action"
+            [matTooltipPosition]="position.value!"
+            matTooltipHideDelay="100000"
+            aria-label="Button that displays a tooltip that hides when scrolled out of the container"
+            class="example-button">
+      Action
+    </button>
+  </div>
+  
+

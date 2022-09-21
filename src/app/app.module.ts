@@ -36,6 +36,8 @@ import { PaginatortableComponent } from './Tables/paginatortable/paginatortable.
 import { EventTableComponent } from './Tables/event-table/event-table.component';
 import { TooltipComponent } from './ToolTip/tooltip/tooltip.component';
 import { DatepickerComponent } from './DatePicker/datepicker/datepicker.component';
+import { SidenavComponent } from './SideNav/sidenav/sidenav.component';
+import { ChipsComponent } from './Chips/chips/chips.component';
 
 @NgModule({
   declarations: [
@@ -70,6 +72,8 @@ import { DatepickerComponent } from './DatePicker/datepicker/datepicker.componen
     EventTableComponent,
     TooltipComponent,
     DatepickerComponent,
+    SidenavComponent,
+    ChipsComponent,
     // FilterTableComponent
   ],
   imports: [

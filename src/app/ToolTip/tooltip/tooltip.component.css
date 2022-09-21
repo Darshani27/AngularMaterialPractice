@@ -1,0 +1,21 @@
+.example-button {
+    margin-top: 16px;
+  }
+  
+  .example-tooltip-red {
+    background: #b71c1c;
+  }
+  .example-user-input {
+    margin-right: 8px;
+  }
+  .example-button {
+    display: block;
+    margin: 80px auto 400px;
+  }
+  
+  .example-container {
+    height: 200px;
+    overflow: auto;
+    border: 1px solid #ccc;
+  }
+  
