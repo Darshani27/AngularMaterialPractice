@@ -38,6 +38,8 @@ import { TooltipComponent } from './ToolTip/tooltip/tooltip.component';
 import { DatepickerComponent } from './DatePicker/datepicker/datepicker.component';
 import { SidenavComponent } from './SideNav/sidenav/sidenav.component';
 import { ChipsComponent } from './Chips/chips/chips.component';
+import { TabsComponent } from './Tabs/tabs/tabs.component';
+import { StepperComponent } from './Stepper/stepper/stepper.component';
 
 @NgModule({
   declarations: [
@@ -74,6 +76,8 @@ import { ChipsComponent } from './Chips/chips/chips.component';
     DatepickerComponent,
     SidenavComponent,
     ChipsComponent,
+    TabsComponent,
+    StepperComponent,
     // FilterTableComponent
   ],
   imports: [

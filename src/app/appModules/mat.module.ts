@@ -29,8 +29,10 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatSidenavModule} from '@angular/material/sidenav'; 
 import {MatChipsModule} from '@angular/material/chips'; 
+import {MatTabsModule} from '@angular/material/tabs'; 
+import {MatStepperModule} from '@angular/material/stepper';
 
-const material=[MatChipsModule,MatSidenavModule,MatDatepickerModule,MatTooltipModule,MatTableModule,MatExpansionModule,MatSnackBarModule,MatAutocompleteModule,MatSortModule,MatCardModule,MatProgressBarModule,MatProgressSpinnerModule,MatSlideToggleModule,MatCheckboxModule,MatGridListModule,MatBadgeModule,MatPaginatorModule,MatSelectModule,MatRadioModule,MatListModule,MatRippleModule,MatDividerModule,MatSliderModule,MatMenuModule,MatButtonModule,MatToolbarModule,MatIconModule,MatDialogModule,MatFormFieldModule]
+const material=[MatStepperModule,MatTabsModule,MatChipsModule,MatSidenavModule,MatDatepickerModule,MatTooltipModule,MatTableModule,MatExpansionModule,MatSnackBarModule,MatAutocompleteModule,MatSortModule,MatCardModule,MatProgressBarModule,MatProgressSpinnerModule,MatSlideToggleModule,MatCheckboxModule,MatGridListModule,MatBadgeModule,MatPaginatorModule,MatSelectModule,MatRadioModule,MatListModule,MatRippleModule,MatDividerModule,MatSliderModule,MatMenuModule,MatButtonModule,MatToolbarModule,MatIconModule,MatDialogModule,MatFormFieldModule]
 
 @NgModule({
   declarations: [],
