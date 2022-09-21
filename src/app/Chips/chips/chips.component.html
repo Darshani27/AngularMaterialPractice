@@ -1,0 +1,42 @@
+<!-- <p>Basic Chips</p>
+<mat-chip-list aria-label="Fish selection">
+    <mat-chip>One fish</mat-chip>
+    <mat-chip>Two fish</mat-chip>
+    <mat-chip color="primary" selected>Primary fish</mat-chip>
+    <mat-chip color="accent" selected>Accent fish</mat-chip>
+  </mat-chip-list>
+   -->
+
+   <!-- <p>Stacked chips</p>
+   <mat-chip-list class="mat-chip-list-stacked" aria-label="Color selection">
+    <mat-chip *ngFor="let chip of availableColors" selected [color]="chip.color">
+      {{chip.name}}
+    </mat-chip>
+  </mat-chip-list> -->
+  <!-- <p>Chips with Avatar</p>
+  <mat-chip-list>
+    <mat-chip>
+        <img matChipAvatar src="assets/one-706897_960_720.webp"  alt="">
+        One
+    </mat-chip>
+    <mat-chip>
+        <img matChipAvatar src="" alt="">
+        Two
+    </mat-chip>
+  </mat-chip-list>
+    -->
+    <p>Chips with input</p>
+    <mat-form-field>
+        <mat-label>Fav Fruits</mat-label>
+        <mat-chip-list>
+            <mat-chip *ngFor="let fruit of favFruits" (removed)="remove(fruit)">
+                {{fruit.name}}
+                <button matChipRemove>
+                    <mat-icon>
+                        cancel
+                    </mat-icon>
+                </button>
+            </mat-chip>
+            <input placeholder="New Fruit" (matChipInputTokenEnd)="add($event)">
+        </mat-chip-list>
+    </mat-form-field>
