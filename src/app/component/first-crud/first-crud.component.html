@@ -1,0 +1,31 @@
+
+<div class="main-div">
+    <mat-card class="mat-card-style">
+            <mat-card-title>
+                Register
+            </mat-card-title>
+        <mat-card-content>
+            <form>
+                <p>
+                    <mat-form-field>
+                      <input type="text" matInput placeholder="Username" #email>
+                    </mat-form-field>
+                </p>
+                <!-- <p>
+                    <mat-form-field>
+                      <input type="password" matInput placeholder="Password" #pwd>
+                    </mat-form-field>
+                </p> -->
+                <div class="btn-center">
+                    <button type="submit" mat-raised-button color="primary" (click)="saveData(email.value)">Save</button>
+                </div>
+            </form>
+            <hr>
+            <mat-list>
+                <mat-list-item *ngFor="let item of data" [value]="item">
+                    {{item}}
+                </mat-list-item>
+            </mat-list>
+        </mat-card-content>
+    </mat-card>
+    </div>
